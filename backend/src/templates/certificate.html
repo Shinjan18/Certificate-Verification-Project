@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate of Completion</title>
+</head>
+<body>
+  <div style="width: 21cm; height: 29.7cm; margin: 0 auto; padding: 2cm; font-family: 'Georgia', serif; background: white; position: relative;">
+    <!-- Header with gradient bar -->
+    <div style="height: 15px; background: linear-gradient(90deg, #006666, #660066); margin-bottom: 2cm; border-radius: 8px;"></div>
+    
+    <!-- Certificate title -->
+    <h1 style="text-align: center; font-size: 2.8rem; color: #006666; margin: 1cm 0; text-transform: uppercase; letter-spacing: 3px; font-weight: normal;">
+      Certificate of Completion
+    </h1>
+    
+    <p style="text-align: center; font-size: 1.2rem; color: #666; margin-bottom: 2cm; font-style: italic;">
+      This is to certify that
+    </p>
+    
+    <!-- Student details box -->
+    <div style="background: #f8f8f8; border-left: 4px solid #006666; padding: 1.5cm; margin: 1cm 0; border-radius: 4px;">
+      <h2 style="text-align: center; font-size: 2.2rem; color: #333; margin: 0 0 0.5cm 0; font-weight: normal; font-family: 'Times New Roman', serif;">
+        {{studentName}}
+      </h2>
+      
+      <div style="margin: 1cm 0;">
+        <p style="text-align: center; font-size: 1.1rem; color: #555; line-height: 1.8;">
+          has successfully completed the internship program in
+        </p>
+        <p style="text-align: center; font-size: 1.6rem; color: #660066; font-weight: bold; margin: 0.5cm 0;">
+          {{internshipDomain}}
+        </p>
+      </div>
+      
+      <!-- Internship duration -->
+      <p style="text-align: center; font-size: 1.1rem; color: #555; margin: 0.5cm 0;">
+        From <strong>{{startDate}}</strong> to <strong>{{endDate}}</strong>
+      </p>
+    </div>
+    
+    <!-- Digital signature placeholder -->
+    <div style="margin-top: 2.5cm; display: flex; justify-content: space-between;">
+      <div style="text-align: center; width: 45%;">
+        <div style="height: 1px; background: #999; width: 70%; margin: 0 auto 0.5cm;"></div>
+        <p style="font-weight: bold; color: #333; margin: 0.2cm 0;">Authorized Signature</p>
+        <p style="font-size: 0.9rem; color: #666; margin: 0.2cm 0;">Director of Internships</p>
+      </div>
+      
+      <div style="text-align: center; width: 45%;">
+        <div style="height: 1px; background: #999; width: 70%; margin: 0 auto 0.5cm;"></div>
+        <p style="font-weight: bold; color: #333; margin: 0.2cm 0;">Date</p>
+        <p style="font-size: 0.9rem; color: #666; margin: 0.2cm 0;">{{endDate}}</p>
+      </div>
+    </div>
+    
+    <!-- QR code section at bottom-right -->
+    <div style="position: absolute; bottom: 2cm; right: 2cm; text-align: center;">
+      <div style="border: 2px solid #006666; padding: 5px; display: inline-block; border-radius: 8px;">
+        <img src="{{qrPath}}" alt="QR Code" style="width: 80px; height: 80px;">
+      </div>
+      <p style="font-size: 0.8rem; color: #666; margin-top: 0.3cm;">Scan to Verify</p>
+    </div>
+    
+    <!-- Certificate ID -->
+    <div style="position: absolute; bottom: 1.5cm; left: 2cm;">
+      <p style="font-size: 0.8rem; color: #666; margin: 0;">
+        Certificate ID: <strong>{{certificateId}}</strong>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

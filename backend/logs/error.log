@@ -1,0 +1,9 @@
+[2025-11-24T10:13:22.968Z] Login attempt {"email":"admin@example.com"}
+[2025-11-24T10:13:23.156Z] Login successful {"email":"admin@example.com","userId":"692413de939528715a89edb2"}
+[2025-11-24T10:13:23.195Z] Error 500 {"message":"Unexpected end of form","stack":"Error: Unexpected end of form\n    at Multipart._final (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:588:17)\n    at prefinish (node:internal/streams/writable:916:14)\n    at finishMaybe (node:internal/streams/writable:930:5)\n    at Writable.end (node:internal/streams/writable:845:5)\n    at IncomingMessage.onend (node:internal/streams/readable:948:10)\n    at Object.onceWrapper (node:events:632:28)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"axios/1.13.2"}
+[2025-11-24T10:13:23.205Z] Certificate lookup {"certificateId":"NONEXISTENT123"}
+[2025-11-24T10:13:23.209Z] Certificate not found {"certificateId":"NONEXISTENT123"}
+[2025-11-24T10:14:18.474Z] Certificate lookup {"certificateId":"CERT001"}
+[2025-11-24T10:14:18.496Z] Certificate found {"certificateId":"CERT001"}
+[2025-11-24T10:14:27.478Z] Certificate lookup {"certificateId":"NONEXISTENT"}
+[2025-11-24T10:14:27.481Z] Certificate not found {"certificateId":"NONEXISTENT"}

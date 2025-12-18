@@ -1,0 +1,576 @@
+[2025-11-24T10:15:45.965Z] Certificate lookup {"certificateId":"CERT001"}
+[2025-11-24T10:15:45.986Z] Certificate found {"certificateId":"CERT001"}
+[2025-11-24T10:15:57.519Z] Certificate lookup {"certificateId":"NONEXISTENT"}
+[2025-11-24T10:15:57.523Z] Certificate not found {"certificateId":"NONEXISTENT"}
+[2025-11-24T10:40:35.672Z] Login attempt {"email":"admin@certify.com"}
+[2025-11-24T10:40:35.767Z] Error 500 {"message":"Illegal arguments: string, undefined","stack":"Error: Illegal arguments: string, undefined\n    at _async (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\bcryptjs\\umd\\index.js:305:15)\n    at G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\bcryptjs\\umd\\index.js:335:11\n    at new Promise (<anonymous>)\n    at Object.compare (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\bcryptjs\\umd\\index.js:334:16)\n    at model.comparePassword [as matchPassword] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\models\\User.js:20:17)\n    at G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\auth.js:26:38\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"}
+[2025-12-15T09:13:36.042Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:13:36.144Z] Login failed - User not found {"email":"admin@certify.com"}
+[2025-12-15T09:22:58.317Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:22:58.672Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T09:25:11.856Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:25:12.170Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T09:39:19.356Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:39:19.694Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T09:39:27.046Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:39:27.307Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T09:40:54.315Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:40:54.522Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T09:40:59.629Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:40:59.828Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T09:41:20.755Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:41:20.955Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T09:55:56.024Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T09:55:56.279Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T10:30:27.012Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T10:30:27.353Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T11:04:34.511Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T11:04:34.765Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T11:10:22.392Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T11:10:22.634Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T16:37:18.339Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T16:37:19.224Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T17:07:37.642Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T17:07:37.885Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T17:08:03.975Z] Certificate lookup {"certificateId":"BI-2011115419413"}
+[2025-12-15T17:08:04.030Z] Certificate not found {"certificateId":"BI-2011115419413"}
+[2025-12-15T17:08:10.930Z] Certificate lookup {"certificateId":"2011115419413"}
+[2025-12-15T17:08:10.984Z] Certificate not found {"certificateId":"2011115419413"}
+[2025-12-15T17:48:43.444Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T17:48:43.660Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-15T18:08:41.730Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-15T18:08:41.942Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-16T06:51:43.855Z] Certificate lookup {"certificateId":"FJD2T9GVCN6A"}
+[2025-12-16T06:51:43.923Z] Certificate not found {"certificateId":"FJD2T9GVCN6A"}
+[2025-12-16T06:51:44.965Z] Certificate lookup {"certificateId":"FJD2T9GVCN6A"}
+[2025-12-16T06:51:45.014Z] Certificate not found {"certificateId":"FJD2T9GVCN6A"}
+[2025-12-16T06:53:59.120Z] Certificate lookup {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:53:59.170Z] Certificate not found {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:54:01.664Z] Certificate lookup {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:54:01.713Z] Certificate not found {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:54:02.550Z] Certificate lookup {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:54:02.605Z] Certificate not found {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:54:18.699Z] Certificate lookup {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:54:18.748Z] Certificate not found {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:54:19.433Z] Certificate lookup {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T06:54:19.482Z] Certificate not found {"certificateId":"C8A05927D10F8A745B07B0224B991FFC081588239A979BD0D5109339196209D1"}
+[2025-12-16T07:09:28.496Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-16T07:09:28.767Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-16T07:09:30.331Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-16T07:09:30.566Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-16T07:12:14.828Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-16T07:12:15.086Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-16T07:56:59.524Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-16T07:56:59.790Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-16T08:06:09.407Z] Error 500 {"message":"Only Excel files are allowed","stack":"Error: Only Excel files are allowed\n    at fileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\admin.js:21:10)\n    at wrappedFileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"}
+[2025-12-16T08:06:59.325Z] Error 500 {"message":"Only Excel files are allowed","stack":"Error: Only Excel files are allowed\n    at fileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\admin.js:21:10)\n    at wrappedFileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"}
+[2025-12-16T08:08:34.750Z] Error 500 {"message":"Only Excel files are allowed","stack":"Error: Only Excel files are allowed\n    at fileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\admin.js:21:10)\n    at wrappedFileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"}
+[2025-12-16T08:11:30.443Z] Error 500 {"message":"Only Excel files are allowed","stack":"Error: Only Excel files are allowed\n    at fileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\admin.js:21:10)\n    at wrappedFileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36 Edg/143.0.0.0"}
+[2025-12-17T06:35:15.572Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:35:15.800Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:36:42.761Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:36:42.950Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:36:43.033Z] Error 500 {"message":"Unexpected end of form","stack":"Error: Unexpected end of form\n    at Multipart._final (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:588:17)\n    at prefinish (node:internal/streams/writable:916:14)\n    at finishMaybe (node:internal/streams/writable:930:5)\n    at Writable.end (node:internal/streams/writable:845:5)\n    at IncomingMessage.onend (node:internal/streams/readable:948:10)\n    at Object.onceWrapper (node:events:632:28)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"axios/1.13.2"}
+[2025-12-17T06:39:29.580Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:39:29.769Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:39:29.840Z] Error 500 {"message":"Only Excel files are allowed","stack":"Error: Only Excel files are allowed\n    at fileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\admin.js:21:10)\n    at wrappedFileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"axios/1.13.2"}
+[2025-12-17T06:40:11.104Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:40:11.300Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:40:11.369Z] Error 500 {"message":"Only Excel files are allowed","stack":"Error: Only Excel files are allowed\n    at fileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\admin.js:21:10)\n    at wrappedFileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"axios/1.13.2"}
+[2025-12-17T06:40:43.922Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:40:44.111Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:40:44.181Z] Error 500 {"message":"Only Excel files are allowed","stack":"Error: Only Excel files are allowed\n    at fileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\admin.js:21:10)\n    at wrappedFileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"axios/1.13.2"}
+[2025-12-17T06:41:59.775Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:41:59.965Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:42:00.032Z] Error 500 {"message":"Only Excel files are allowed","stack":"Error: Only Excel files are allowed\n    at fileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\src\\routes\\admin.js:21:10)\n    at wrappedFileFilter (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\index.js:44:7)\n    at Multipart.<anonymous> (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\multer\\lib\\make-middleware.js:132:7)\n    at Multipart.emit (node:events:518:28)\n    at HeaderParser.cb (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:219:14)\n    at SBMH.push (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (G:\\Study Materials\\Amdox Internship\\Certificate Verification Project\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","url":"/api/admin/upload","method":"POST","ip":"::1","userAgent":"axios/1.13.2"}
+[2025-12-17T06:44:12.285Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:44:12.512Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:46:23.207Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:46:23.395Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:48:04.315Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:48:04.501Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:53:09.463Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:53:09.656Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T06:57:56.415Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T06:57:56.649Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:00:19.225Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:00:19.421Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:01:38.472Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:01:38.705Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:02:57.744Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:02:57.937Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:08:57.097Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:08:57.292Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:09:00.328Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:09:00.528Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:09:04.128Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:09:04.317Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:09:45.275Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:09:45.479Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:16:15.163Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:16:15.448Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:16:52.706Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:16:52.997Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:18:17.735Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:18:18.112Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:19:29.288Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:19:29.686Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T07:20:27.029Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T07:20:27.435Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T08:18:08.040Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T08:18:08.372Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T08:18:10.298Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T08:18:10.542Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T08:28:25.983Z] Certificate lookup {"certificateId":"CERT001"}
+[2025-12-17T08:28:26.094Z] Certificate found {"certificateId":"CERT001"}
+[2025-12-17T08:32:20.839Z] Certificate lookup {"certificateId":"CERT001"}
+[2025-12-17T08:32:20.990Z] Certificate found {"certificateId":"CERT001"}
+[2025-12-17T08:42:17.172Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T08:42:19.364Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T08:42:19.480Z] Fetching all certificates 
+[2025-12-17T08:42:19.587Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:46:30.772Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T08:46:36.812Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T08:46:36.987Z] Fetching all certificates 
+[2025-12-17T08:46:37.115Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:51:41.138Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T08:51:41.503Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T08:51:41.805Z] Fetching all certificates 
+[2025-12-17T08:51:41.923Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:51:49.825Z] Fetching all certificates 
+[2025-12-17T08:51:49.912Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:51:50.063Z] Fetching all certificates 
+[2025-12-17T08:51:50.156Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:54:10.086Z] Fetching all certificates 
+[2025-12-17T08:54:11.570Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:54:12.064Z] Fetching all certificates 
+[2025-12-17T08:54:12.671Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:54:13.248Z] Fetching all certificates 
+[2025-12-17T08:54:14.755Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:54:15.740Z] Fetching all certificates 
+[2025-12-17T08:54:16.556Z] Certificates fetched successfully {"count":8}
+[2025-12-17T08:54:40.095Z] Fetching all certificates 
+[2025-12-17T08:54:40.216Z] Certificates fetched successfully {"count":16}
+[2025-12-17T08:54:40.312Z] Fetching all certificates 
+[2025-12-17T08:54:40.392Z] Certificates fetched successfully {"count":16}
+[2025-12-17T08:54:40.485Z] Fetching all certificates 
+[2025-12-17T08:54:40.633Z] Certificates fetched successfully {"count":16}
+[2025-12-17T08:54:40.797Z] Fetching all certificates 
+[2025-12-17T08:54:41.036Z] Certificates fetched successfully {"count":16}
+[2025-12-17T08:56:13.389Z] Fetching all certificates 
+[2025-12-17T08:56:13.471Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:56:13.564Z] Fetching all certificates 
+[2025-12-17T08:56:13.649Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:56:28.183Z] Fetching all certificates 
+[2025-12-17T08:56:28.288Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:56:28.370Z] Fetching all certificates 
+[2025-12-17T08:56:28.481Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:58:58.496Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T08:58:58.775Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T08:58:58.967Z] Fetching all certificates 
+[2025-12-17T08:58:59.198Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:59:01.078Z] Fetching all certificates 
+[2025-12-17T08:59:01.309Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:59:01.466Z] Fetching all certificates 
+[2025-12-17T08:59:01.696Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:59:12.654Z] Fetching all certificates 
+[2025-12-17T08:59:12.759Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:59:12.873Z] Fetching all certificates 
+[2025-12-17T08:59:13.013Z] Certificates fetched successfully {"count":18}
+[2025-12-17T08:59:23.488Z] Certificate lookup {"certificateId":"CERT001"}
+[2025-12-17T08:59:23.592Z] Certificate found {"certificateId":"CERT001"}
+[2025-12-17T09:03:50.579Z] Fetching all certificates 
+[2025-12-17T09:03:50.641Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:03:50.704Z] Fetching all certificates 
+[2025-12-17T09:03:50.780Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:03:56.484Z] Fetching all certificates 
+[2025-12-17T09:03:56.569Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:04:01.125Z] Fetching all certificates 
+[2025-12-17T09:04:01.236Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:04:02.970Z] Fetching all certificates 
+[2025-12-17T09:04:03.062Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:04:03.770Z] Fetching all certificates 
+[2025-12-17T09:04:03.853Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:04:06.803Z] Fetching all certificates 
+[2025-12-17T09:04:06.958Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:04:09.754Z] Fetching all certificates 
+[2025-12-17T09:04:09.868Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:04:09.964Z] Fetching all certificates 
+[2025-12-17T09:04:10.117Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:04:14.542Z] Certificate lookup {"certificateId":"CERT001"}
+[2025-12-17T09:04:14.686Z] Certificate found {"certificateId":"CERT001"}
+[2025-12-17T09:04:24.035Z] Fetching all certificates 
+[2025-12-17T09:04:24.163Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:04:24.251Z] Fetching all certificates 
+[2025-12-17T09:04:24.369Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:25:22.610Z] Fetching all certificates 
+[2025-12-17T09:25:22.693Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:25:30.406Z] Fetching all certificates 
+[2025-12-17T09:25:30.489Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:25:35.170Z] Fetching all certificates 
+[2025-12-17T09:25:35.305Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:25:47.775Z] Fetching all certificates 
+[2025-12-17T09:25:47.889Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:25:49.655Z] Fetching all certificates 
+[2025-12-17T09:25:49.749Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:25:51.852Z] Fetching all certificates 
+[2025-12-17T09:25:51.949Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:25:56.563Z] Fetching all certificates 
+[2025-12-17T09:25:56.648Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:25:59.336Z] Fetching all certificates 
+[2025-12-17T09:25:59.415Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:26:08.976Z] Fetching all certificates 
+[2025-12-17T09:26:09.124Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:47:50.426Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T09:47:50.733Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T09:47:50.841Z] Fetching all certificates 
+[2025-12-17T09:47:51.058Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:48:32.923Z] Fetching all certificates 
+[2025-12-17T09:48:33.208Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:50:22.864Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-17T09:50:23.114Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-17T09:50:23.277Z] Fetching all certificates 
+[2025-12-17T09:50:23.383Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:50:24.479Z] Fetching all certificates 
+[2025-12-17T09:50:24.589Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:50:24.689Z] Fetching all certificates 
+[2025-12-17T09:50:24.787Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:50:33.306Z] Fetching all certificates 
+[2025-12-17T09:50:33.394Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:50:43.281Z] Fetching all certificates 
+[2025-12-17T09:50:43.383Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:50:48.975Z] Fetching all certificates 
+[2025-12-17T09:50:49.073Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:50:59.498Z] Fetching all certificates 
+[2025-12-17T09:50:59.578Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:51:06.828Z] Fetching all certificates 
+[2025-12-17T09:51:06.926Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:51:12.293Z] Fetching all certificates 
+[2025-12-17T09:51:12.382Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:51:12.470Z] Fetching all certificates 
+[2025-12-17T09:51:12.563Z] Certificates fetched successfully {"count":18}
+[2025-12-17T09:51:17.282Z] Certificate lookup {"certificateId":"CERT003"}
+[2025-12-17T09:51:17.365Z] Certificate found {"certificateId":"CERT003"}
+[2025-12-17T09:51:35.694Z] Certificate lookup {"certificateId":"CERT2024006"}
+[2025-12-17T09:51:35.785Z] Certificate found {"certificateId":"CERT2024006"}
+[2025-12-17T10:53:10.356Z] Fetching all certificates 
+[2025-12-17T10:53:10.426Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:10.503Z] Fetching all certificates 
+[2025-12-17T10:53:10.557Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:10.631Z] Fetching all certificates 
+[2025-12-17T10:53:10.686Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:10.763Z] Fetching all certificates 
+[2025-12-17T10:53:10.814Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:27.918Z] Fetching all certificates 
+[2025-12-17T10:53:27.971Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:28.038Z] Fetching all certificates 
+[2025-12-17T10:53:28.091Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:31.501Z] Fetching all certificates 
+[2025-12-17T10:53:31.549Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:31.604Z] Fetching all certificates 
+[2025-12-17T10:53:31.657Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:37.763Z] Fetching all certificates 
+[2025-12-17T10:53:37.811Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:46.121Z] Fetching all certificates 
+[2025-12-17T10:53:46.169Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:46.229Z] Fetching all certificates 
+[2025-12-17T10:53:46.285Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:53:50.386Z] Certificate lookup {"certificateId":"CERT2024009"}
+[2025-12-17T10:53:50.434Z] Certificate found {"certificateId":"CERT2024009"}
+[2025-12-17T10:54:27.603Z] Fetching all certificates 
+[2025-12-17T10:54:27.650Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:54:27.704Z] Fetching all certificates 
+[2025-12-17T10:54:27.754Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:54:34.185Z] Fetching all certificates 
+[2025-12-17T10:54:34.235Z] Certificates fetched successfully {"count":18}
+[2025-12-17T10:54:37.299Z] Fetching all certificates 
+[2025-12-17T10:54:37.347Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:58:43.897Z] Fetching all certificates 
+[2025-12-17T14:58:43.969Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:58:44.070Z] Fetching all certificates 
+[2025-12-17T14:58:44.147Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:58:48.402Z] Fetching all certificates 
+[2025-12-17T14:58:48.465Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:58:48.532Z] Fetching all certificates 
+[2025-12-17T14:58:48.595Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:58:53.520Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T14:58:53.637Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T14:59:04.216Z] Students fetched successfully {"count":8,"total":18}
+[2025-12-17T14:59:07.799Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T14:59:12.054Z] Fetching all certificates 
+[2025-12-17T14:59:12.118Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:59:12.178Z] Fetching all certificates 
+[2025-12-17T14:59:12.232Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:59:15.826Z] Fetching all certificates 
+[2025-12-17T14:59:15.882Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:59:20.252Z] Fetching all certificates 
+[2025-12-17T14:59:20.308Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:59:31.169Z] Fetching all certificates 
+[2025-12-17T14:59:31.223Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:59:39.663Z] Fetching all certificates 
+[2025-12-17T14:59:39.717Z] Certificates fetched successfully {"count":18}
+[2025-12-17T14:59:44.373Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T14:59:44.483Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T14:59:51.267Z] Students fetched successfully {"count":8,"total":18}
+[2025-12-17T15:00:06.184Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T15:00:28.321Z] Students fetched successfully {"count":8,"total":18}
+[2025-12-17T15:01:05.162Z] Fetching all certificates 
+[2025-12-17T15:01:05.217Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:01:05.280Z] Fetching all certificates 
+[2025-12-17T15:01:05.340Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:01:09.810Z] Fetching all certificates 
+[2025-12-17T15:01:09.864Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:01:20.780Z] Fetching all certificates 
+[2025-12-17T15:01:20.842Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:02:16.970Z] Fetching all certificates 
+[2025-12-17T15:02:17.023Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:02:18.598Z] Fetching all certificates 
+[2025-12-17T15:02:18.654Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:02:46.630Z] Fetching all certificates 
+[2025-12-17T15:02:46.682Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:04:32.501Z] Fetching all certificates 
+[2025-12-17T15:04:32.553Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:05:14.151Z] Fetching all certificates 
+[2025-12-17T15:05:14.204Z] Certificates fetched successfully {"count":18}
+[2025-12-17T15:08:53.331Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-17T15:08:53.388Z] Certificates fetched successfully {"count":8,"total":18}
+[2025-12-17T15:09:13.582Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:09:13.637Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:09:13.695Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:09:13.749Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:09:18.241Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-17T15:09:18.572Z] Certificates fetched successfully {"count":8,"total":18}
+[2025-12-17T15:09:23.965Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:09:24.016Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:09:28.556Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-17T15:09:28.607Z] Certificates fetched successfully {"count":8,"total":18}
+[2025-12-17T15:09:34.962Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:09:35.015Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:12:46.715Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:12:46.779Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:12:46.851Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:12:46.903Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:12:49.616Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:12:49.682Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:12:49.760Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:12:49.810Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:12:56.116Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:12:56.440Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:12:56.525Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:12:56.582Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:12:59.982Z] Certificate lookup {"certificateId":"CERT2024010"}
+[2025-12-17T15:13:00.320Z] Certificate found {"certificateId":"CERT2024010"}
+[2025-12-17T15:26:35.304Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:26:35.365Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:26:35.437Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:26:35.491Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:26:38.444Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:26:38.497Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:26:38.554Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:26:38.604Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:26:46.412Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:26:46.460Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:26:47.912Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:26:47.960Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:26:50.117Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-17T15:26:50.165Z] Certificates fetched successfully {"count":8,"total":18}
+[2025-12-17T15:26:53.957Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:26:54.284Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:26:56.319Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:26:56.369Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:27:30.488Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:27:30.537Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:27:31.449Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:27:31.498Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:27:31.953Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:27:32.003Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:27:32.616Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:27:32.665Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:27:33.508Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:27:33.558Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:03.632Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:03.681Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:05.581Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:05.696Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:05.756Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:05.812Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:07.658Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:07.713Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:07.772Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:07.826Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:11.069Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:11.119Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:11.177Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:11.226Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:17.490Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:17.540Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:38:20.124Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:38:20.175Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:06.895Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:06.955Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:07.027Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:07.081Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:08.486Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:08.545Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:08.604Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:08.656Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:20.939Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:20.993Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:21.063Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:21.116Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:26.070Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:26.122Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:29.589Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:29.643Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:33.672Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-17T15:41:33.725Z] Certificates fetched successfully {"count":8,"total":18}
+[2025-12-17T15:41:37.053Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:37.105Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:44.605Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:44.658Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:41:46.728Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:41:46.781Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:53:27.273Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:53:27.361Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:53:31.159Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:53:31.215Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:53:31.278Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:53:31.338Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:53:36.076Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:53:36.147Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:53:52.513Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:53:52.564Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:54:11.291Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:54:11.344Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:54:12.886Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:54:12.944Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:54:16.086Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-17T15:54:16.137Z] Certificates fetched successfully {"count":8,"total":18}
+[2025-12-17T15:54:18.209Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T15:54:18.314Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T15:54:21.417Z] Students fetched successfully {"count":8,"total":18}
+[2025-12-17T15:54:29.625Z] Students fetched successfully {"count":10,"total":18}
+[2025-12-17T15:54:37.098Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:54:37.149Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:54:37.216Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-17T15:54:37.267Z] Certificates fetched successfully {"count":10,"total":18}
+[2025-12-17T15:54:41.636Z] Certificate lookup {"certificateId":"CERT2024001"}
+[2025-12-17T15:54:41.686Z] Certificate found {"certificateId":"CERT2024001"}
+[2025-12-17T15:54:49.260Z] Certificate PDF generation request {"certificateId":"CERT2024001"}
+[2025-12-17T15:54:49.310Z] Existing PDF found {"certificateId":"CERT2024001","path":"/uploads/pdfs/CERT2024001.pdf"}
+[2025-12-18T07:43:03.845Z] Login attempt {"email":"admin@certify.com"}
+[2025-12-18T07:43:04.092Z] Login successful {"email":"admin@certify.com","userId":"693fd358aaa4addf345218d1"}
+[2025-12-18T07:43:04.202Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:04.257Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:05.668Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:05.717Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:05.776Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:05.826Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:10.473Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-18T07:43:10.523Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:16.380Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:16.433Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:22.077Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:22.125Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:22.183Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:22.242Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:29.700Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:29.750Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:29.804Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:29.860Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:36.572Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:36.632Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:36.695Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:43:36.748Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:43:39.975Z] Certificate lookup {"certificateId":"CERT20251014"}
+[2025-12-18T07:43:40.022Z] Certificate found {"certificateId":"CERT20251014"}
+[2025-12-18T07:43:45.666Z] Certificate PDF generation request {"certificateId":"CERT20251014"}
+[2025-12-18T07:43:45.723Z] Generating missing QR code {"certificateId":"CERT20251014"}
+[2025-12-18T07:43:46.000Z] Generating new PDF {"certificateId":"CERT20251014"}
+[2025-12-18T07:43:50.104Z] PDF generated successfully {"certificateId":"CERT20251014","pdfUrl":"/uploads/pdfs/CERT20251014.pdf"}
+[2025-12-18T07:46:03.235Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:46:03.283Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:46:03.336Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:46:03.384Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:46:04.841Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:46:04.888Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:46:04.952Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:46:05.002Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:46:27.857Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:46:27.905Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:46:27.958Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:46:28.006Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:46:29.253Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:46:29.302Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:46:29.359Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:46:29.408Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:55:58.495Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:55:58.574Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:55:58.655Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:55:58.711Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:05.490Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:56:05.541Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:05.596Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:56:05.649Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:07.459Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:56:07.509Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:07.570Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:56:07.621Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:12.106Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:56:12.157Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:12.210Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:56:12.260Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:37.796Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:56:37.861Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:37.936Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:56:37.990Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:56:40.061Z] Certificate lookup {"certificateId":"CERT20251015"}
+[2025-12-18T07:56:40.134Z] Certificate found {"certificateId":"CERT20251015"}
+[2025-12-18T07:56:47.681Z] Certificate PDF generation request {"certificateId":"CERT20251015"}
+[2025-12-18T07:56:47.732Z] Generating missing QR code {"certificateId":"CERT20251015"}
+[2025-12-18T07:56:48.000Z] Generating new PDF {"certificateId":"CERT20251015"}
+[2025-12-18T07:56:52.089Z] PDF generated successfully {"certificateId":"CERT20251015","pdfUrl":"/uploads/pdfs/CERT20251015.pdf"}
+[2025-12-18T07:57:30.508Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:57:30.560Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:57:30.624Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:57:30.673Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:57:33.149Z] Students fetched successfully {"count":10,"total":20}
+[2025-12-18T07:57:33.250Z] Students fetched successfully {"count":10,"total":20}
+[2025-12-18T07:57:39.234Z] Students fetched successfully {"count":10,"total":20}
+[2025-12-18T07:57:42.005Z] Students fetched successfully {"count":10,"total":20}
+[2025-12-18T07:57:43.783Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:57:43.837Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:57:43.888Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:57:43.937Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:02.501Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-18T07:58:02.551Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:07.564Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:58:07.617Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:10.647Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-18T07:58:10.696Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:14.832Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:58:14.884Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:20.571Z] Fetching certificates {"page":2,"limit":10,"search":""}
+[2025-12-18T07:58:20.620Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:22.973Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:58:23.021Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:23.074Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:58:23.123Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:25.732Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:58:25.782Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:25.835Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:58:25.883Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:31.528Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:58:31.583Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:31.637Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:58:31.686Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:58:40.783Z] Certificate lookup {"certificateId":"CERT20251016"}
+[2025-12-18T07:58:40.832Z] Certificate found {"certificateId":"CERT20251016"}
+[2025-12-18T07:59:13.060Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:59:13.108Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:59:13.161Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:59:13.210Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:59:19.787Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:59:19.837Z] Certificates fetched successfully {"count":10,"total":20}
+[2025-12-18T07:59:19.890Z] Fetching certificates {"page":1,"limit":10,"search":""}
+[2025-12-18T07:59:19.938Z] Certificates fetched successfully {"count":10,"total":20}

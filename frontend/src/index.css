@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #f8fafc;
+  background-color: #020617;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at 20% 20%, rgba(20, 184, 166, 0.25), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(124, 58, 237, 0.25), transparent 40%),
+    #050a1f;
+  color: #e2e8f0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.glass-panel {
+  @apply rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-glass;
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: 1.75rem;
+  padding: 1px;
+  background-image: linear-gradient(135deg, rgba(20, 184, 166, 0.8), rgba(124, 58, 237, 0.8));
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  filter: blur(30px);
+  opacity: 0.4;
+  border-radius: inherit;
+  background-image: linear-gradient(135deg, rgba(20, 184, 166, 0.9), rgba(124, 58, 237, 0.9));
+  z-index: -1;
+}
+
+.gradient-border > .inner {
+  border-radius: 1.65rem;
+  background: rgba(8, 15, 30, 0.9);
+}
+
+.pulse {
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1);
+  }
+}
+
+/* Accessibility utility classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Focus visible utility */
+.focus-visible:focus {
+  outline: 2px solid #2dd4bf;
+  outline-offset: 2px;
+}
+
+

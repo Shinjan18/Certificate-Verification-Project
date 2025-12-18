@@ -1,0 +1,2 @@
+[2025-11-24T10:16:11.418Z] Certificate verification request {"certificateId":"CERT001","hasHash":false}
+[2025-11-24T10:16:11.424Z] Certificate verification completed {"certificateId":"CERT001","valid":true,"hasProvidedHash":false}
